@@ -18,7 +18,14 @@
 !/tmp/.keep
 
 # Ignore pidfiles, but keep the directory.
-/tmp/pids/*
+/tmp/pfre
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+!/log/.keep
+!/tmp/.keep
+
+# Ignore piids/*
 !/tmp/pids/
 !/tmp/pids/.keep
 
